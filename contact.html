@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:"Poppins",sans-serif;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        background-position: fixed;
+        justify-content: space-between;
+        padding: 10px 80px;
+        background: rgb(220, 236, 238);
+        box-shadow: 0 5px 10px;
+      }
+      /*to make li in one line*/
+      #navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #navbar li{
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+      }
+      #navbar li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+      }
+      #navbar li a:hover,
+      #navbar li a.active
+      {
+        color: rgb(90, 175, 20);
+      }
+    #navbar li a.active::after,
+    #navbar li a:hover::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: rgb(90, 175, 20);
+        position:absolute;
+        bottom: -4px;
+        left:20px;
+    }
+    body
+        {
+background: #dfe9f5;
+        }
+        .wrapper{
+            width:530px;
+            padding:2rem 1rem;
+            margin:50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 1 20px 35px rgba(0, 0, 0,0.1);
+             
+        }
+        h1{
+            font-size: 2rem;
+            color: #07001f;
+            margin-bottom: 1.2rem;
+        }
+        form input{
+            width: 92%;
+            outline: none;
+            border: 1px solid #fff;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            background: #e4e4e4;
+
+        }
+        button{
+font-size: 1rem;
+margin-top: 1.8rem;
+padding:10px 0;
+border-radius: 20px;
+outline: none;
+border: none;
+width: 90%;
+color: #fff;
+cursor: pointer;
+background: rgb(17, 107, 143);
+        }
+        button:hover{
+            background: rgba(17, 143, 0.877);
+        }
+        input:focus{
+            border: 1px solid rgb(192, 192, 192);
+        }
+        </style>
+
+</head>
+<body>
+    <nav>
+        <img src="IMG_20230314_234954-removebg-preview.png" width="200";>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a class="active" href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                    
+                </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <img src ="IMG_20230314_234954-removebg-preview.png"width ="300";>
+        <br>
+        <br>
+        <h1 style="text-decoration:underline;">
+            Contact Us
+        </h1><br>
+        <a href="tel:+917502171037"><img src="./images/Contact Images/IMG_20230408_185544.jpg" width="450"></a>
+        <a href="mailto:planmart2023@gmail.com"><img src="./images/Contact Images/Picsart_23-04-09_23-01-31-783.jpg" width="450"></a>
+        <a href="https://wa.me/917502171037"><img src="./images/Contact Images/IMG_20230408_185625.jpg" width="450"></a>
+        <a href="https://www.instagram.com/batcha_the_boss/"><img src="./images/Contact Images/IMG_20230408_185655.jpg" width="450"></a>
+        <a href="https://www.cognitoforms.com/Planmart2/RequestForPlanmart"><button> Join with Us</button></a>
+
+  
+</div>
+</div>
+
+</body>
+</html>

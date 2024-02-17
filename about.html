@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Spartan',sans-serif;
+        }
+        #about{
+            background-color: rgb(238, 252, 252);
+            width:1130px;
+            padding:2rem 1rem;
+            margin:50px auto;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 1 20px 35px rgba(0, 0, 0,0.1);
+        }
+        h1{
+            font-size: 55px;
+            padding-right: 5px;
+            line-height: 64px;
+            color: #222;
+        }
+        h2{
+            font-size: 55px;
+            padding-right: 30px;
+            padding-right: 60px;
+            line-height: 64px;
+        }
+       
+        
+        
+        p{
+            font-size: 20px;
+            color: #465;
+            text-align: left;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            margin: 15px 0 20px 0;
+        }
+        .section-p1{
+            padding: 40px 80px;
+        }
+        .section-m1{
+            padding: 40px 0;
+        }
+        
+        body{
+            width: 100%;
+        }
+        /*to amke in one navbar*/
+      nav{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        background-position: fixed;
+        justify-content: space-between;
+        padding: 20px 80px;
+        background: rgb(220, 236, 238);
+        box-shadow: 0 5px 10px;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+      }
+      /*to make li in one line*/
+      #navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #navbar li{
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+      }
+      #navbar li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+      }
+      #navbar li a:hover,
+      #navbar li a.active
+      {
+        color: rgb(90, 175, 20);
+      }
+    #navbar li a.active::after,
+    #navbar li a:hover::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: rgb(90, 175, 20);
+        position:absolute;
+        bottom: -4px;
+        left:20px;
+    }
+    #hero{
+        background-image: url("entrance\ page.jpeg");
+        height: 150vh;
+        width:100%;
+        text-align: start;
+        
+        background-size: cover;
+        background-position: top 25% right 0;
+        padding-top: 15px;
+        padding-left: 450px;
+       
+        
+        
+        justify-content: center;
+    }
+    #cherish
+    {
+        font-size: 100;
+        padding-right: 65px;
+        color: #222;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    #services
+    {
+        font-size: 35px;
+        padding-top: 45;
+        padding-right: 67px;
+        color:rgb(248, 250, 248);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+#servicetitle{
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#service1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#service1 .eve1{
+    width: 300px;
+    text-align: center;
+    padding: 25px 15px;
+    border: 4px solid rgb(214, 191, 191);
+    border-radius: 5px;
+    margin: 15px 0;
+
+}
+#service1 .eve1:hover{
+    box-shadow: 20px 20px 20px  rgb(75, 71, 71);
+}
+#evecon1{
+    padding: 40px 80px;
+    background-color: rgb(238, 252, 252);
+            width:1130px;
+            margin:50px auto;
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: 1 20px 35px rgba(0, 0, 0,0.1);
+            word-spacing: 3px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            font-size: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+    </style>
+   
+</head>
+<body>
+    <nav>
+        <img src="IMG_20230314_234954-removebg-preview.png" width="200";>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                  <li><a class="active" href="about.html">About</a></li>
+                  <li><a  href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                    
+                </ul>        </div>
+    </nav>
+    <section id="servicetitle">
+        <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">About :</h1>
+    </section>
+    <section id="about">
+ <p >Planmart is an emerging  online event  planning website designed by a group of students
+    to inspire and support people and introduce them to the best  venues, 
+    most experienced vendors, latest trends and decor ideas to help them plan the event of their dreams.
+      <br><br>Whenever we decide to conduct any event the biggest  burden arises in planning and organizing the event and planmart
+    has got ur back making your events stress-free.
+     by the help of our website you can save time instead of wandering for the event organizers 
+     our website finds artists even from remote areas so that they could get a job and tries to provide them due recognition for them.
+     <br><br>In  the era of digitalization where everything could be done in a click we can also organize event using a single website itself.
+      we plan events ranging from small gatherings to large scale conferences.
+      our website shows you the services available and connects them to you making you work a cake-walk 
+      the services and vendors at our website are handpicked and included in the community only  after a set of selection
+      process so we assure that they would do justice to the job assigned 
+      
+     <br> <br>A one-stop-shop for all things required for an event , you can find inspiratio​​n​, ​ideas ​and vendors within​ your​ budget.​ So sit back, log on to planmart 
+     and ​plan the event of your dreams​!
+      we include photos , videos ,reviews and samples of our work because we do more than what we say 
+    
+     From photographers to wedding priests, planmart has active vendors for you to choose from. <br><br>Browse their portfolio, prices, genuine client reviews & 
+     much more to do your research and contact  just about any  vendor you might require.
+    
+      we help people conduct a wide range of events such as wedding ,baby showers ,birthday parties ,anniversary celebrations,conferences,corporate meetings,get-togeters etc..</p>
+    </section>
+    <section >
+    <div id="evecon1" style="background-color: rgb(252, 252, 247);">
+        <h2 style="font-family: serif;">Waiter & Server</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"Mans real satisfaction lies in food"</strong></li>
+        <li>only thing that could make an event or break an event is food</li>
+    <li>we understand that food is a key element of any successful event</li>   
+<li>Any great event could be a flop if it doesn't leave it's guests well-fed and satisfied.</li>    
+<li>planmart aims at bringing the city's best caters to your notice who are trustworthy as well as reliable.</li>
+
+<li>
+    our servers serve food with  a smile in a face and a warmth in heart that leaves your guests not only stomach-full but also heart-full.
+</li></ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(245, 245, 241);">
+        <h2 style="font-family: serif;">Stage maker</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"Decorations are icing on the cake of any event"</strong></li>
+        <li>our decorations not only brings a sense of wonder but also creates a mood for a celebration.</li>
+    <li>the right decor can help to reinforce the theme or message of the event,whether it be a corporate conference, a wedding or a birthday party.</li>   
+<li>Any great event could be a flop if it doesn't leave it's guests well-fed and satisfied.</li>    
+<li>talking about decorations flowers are indispensable . right from garland to decorative arches everything needs flowers  and our florists have 
+    perfect flowers which would stay fresh considering the season.</li>
+
+<li>
+    they are insanely important as it sets the tone and ambiance for the entire occasion .a well designed and executed event decorations can elevate 
+                    the guest experience ,create memorable atmosphere ,and leave a lasting impression on the attendees.
+</li></ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(250, 250, 193);">
+        <h2 style="font-family: serif;">Music & DJ</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"Music  is the  heart beat of life .it's the soundtrack of our existence"</strong></li>
+        <li>In this 21st century we have most of the people working far away from their hometown and any special events are the only reason
+            they come home so travelling  should be smooth and sophisticated that's why we have travelling assistance  too </li>
+    <li>Coordinating transportation is a tedious task. With you and your immediate family members occupied at the wedding celebrations, 
+        you might want someone to take this responsibility off your plate, and who better than a professional transportation provider near you? 
+       This will let you manage the guest transfers from airports and railways stations to your wedding venues and the accommodations you have picked for the 
+       out-of-town guests you have invited to the wedding.</li>   
+<li>our website connects you with the vehicle rentors so that you can hire them .
+</li>    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(253, 244, 252);">
+        <h2 style="font-family: serif;">Chef and team</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong> "Best way to reach peoples heart is through food"</strong></li>
+        <li>food plays the vital role in any event thats why we often wander so much in search of a good cook.but planmart has a
+            group of handpicked cooks who are nothing but absolute gems. </li>
+    <li>the cooks at planmart community are well reputed and has many years of experience .
+        they have cooked for big crowd and could cook multicuisine dishes while maintaining its exact taste.</li>   
+<li>our chefs cook high quality ,appetizing,lip-smacking and finger-licking good foods .
+</li>    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(238, 252, 237);">
+        <h2 style="font-family: serif;">Beeda & IceCreams</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"I scream ,you scream and we all scream for icecream"</strong></li>
+        <li>fnothing could be a better choice than icecream  to relax after a scrumptious stomachfull meal. </li>
+    <li>beedas -a sweet delight while helping you digest your meal.</li>   
+    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(252, 243, 235);">
+        <h2 style="font-family: serif;" >PhotoArtist</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"We are making photographs to understand what our lives mean to us"</strong></li>
+        <li>Photographs and videos are two aspects of weddings that cannot be separated from the core idea of a wedding these days. 
+            All those preparations and fun times that make a wedding a successful celebration are meant to be cherished forever and what better way to 
+            treasure those moments than a wedding video. </li>
+    <li>Right from capturing the mesmerising wedding decor at your wedding venue to the perfectly planned bridal entry and every ritual that makes the wedding so beautiful 
+        - wedding videography vendors capture everything for you to relive them again. In fact, 
+    they also take videos of the behind the scene actions that include your cold feet, the groom getting ready, the fun uncle entertaining the family and so much more.
+</li>   
+    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(250, 231, 246);">
+        <h2 style="font-family: serif;">Groom Makeover</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"Beauty is being the best possible version of yourself on the in and outside</strong></li>
+        <li>Bridal Makeup is undoubtedly one of the most important aspects of a bride’s wedding look.</li>
+    <li>Choosing the saree and finding one of the best bridal makeup artists in India are two crucial decisions for the wedding day. 
+        Getting clicked by your wedding photographer on your wedding day and capturing the happiest memories from your wedding celebrations 
+        in photo albums and videos is a part of the couple’s wedding dream. </li>   
+<li>A bridal makeup artist ensures that you look your best on your wedding day and your wedding photos continue to be a testament to how you aced 
+    your bridal look for generations to come.
+</li>    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(252, 238, 241);">
+        <h2 >Invitations & Designs</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"You are a stranger, untill he came to your home"</strong></li>
+        <li>They set the tone for the occasion,communicate important details and give guests a sense of what they can expect.</li>
+    <li>They provide guests with all the neccessary information they need to attend </li>   
+<li>By sending a personalized invitation, you are letting guests know that their presence is iportant and that they are valued
+</li>    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(241, 237, 250);">
+        <h2 style="font-family: serif;">Nadhaswaram & Thavil</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"Music that creates the vibe of traditions then it is Nadhaswaram"</strong></li>
+        <li>South Indian weddings are known fortheir vibrant & lively atmosphere and traditional music plays a significant role in cretaing this ambiance</li>
+    <li>The loud and melodic sound of the nadheswaram accompanied by the rythm beats of the travil, creates an energetic and festive atmosphere </li>   
+    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(252, 250, 231);">
+        <h2 style="font-family: serif;">Florist</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"Flowers - to effortlessly elevate the ambiance of any event"</strong></li>
+        <li>Flowers can play a wide variety of roles in events</li>
+    <li>From garlands to asile decorations flowers are of huge importance in an event they are not only for the purpose of aesthetics but also for their sweet fragrance,traditional purpose and given as gifts. </li>   
+    <li>They create a  sence of warmth and comfort to the surroundings</li>
+   
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(248, 234, 230);">
+        <h2 style="font-family: serif;">Priest</h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"Enter the world of divine Experience"</strong></li>
+        <li>Any event could never be complete without the blessings of a god.</li>
+    <li>Priest is an indespensible part in any event to perform rituals. </li>   
+    <li>Priest is the one who provide spiritual guidance,support to peform rituals and a sacred space to start
+        a memorable journey with a sheer of positivity and happiness.</li>
+    
+
+</ul>
+    </div>
+    <div id="evecon1" style="background-color: rgb(241, 237, 250);">
+        <h2 style="font-family: serif;">Flex Arrangement </h2>
+       <ul>
+        <li style="list-style-type: none;"><strong>"The most appealing decor with a purpose it's an advertising agent"</strong></li>
+        <li> Flex is an important material for branding at events,it can be used to display logos,slogans and other branding elements 
+            that help to promote and establish the brand identity.</li>
+    <li>It is a material that can be used in variety of ways to create effective and impactful signage and promotional material.</li>  
+    <li>Flex plays an huge role as a  personalized wedding decor ,which is also used to create stunning backdrops ,photo booth backdrop</li> 
+    
+
+</ul>
+    </div></section></body></html>
